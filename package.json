@@ -1,0 +1,26 @@
+{
+  "name": "blinker",
+  "version": "1.0.0",
+  "description": "honestly not sure yet",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "npm run build && npx electron .",
+    "dev": "npx tsc && npx electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.1.7",
+    "@types/react-dom": "^19.1.6",
+    "electron": "^36.4.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
